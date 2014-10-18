@@ -8,23 +8,10 @@ namespace atc_treeloader_converter.ViewModels
 
 	public class PartCollectionViewModel : NotificationViewModel
 	{
-		private WorkspaceViewModel _workspaceViewModel;
-
 		#region Members
 
 		public ObservableCollection<PartViewModel>
 			PartCollection { get; private set; }
-
-		public WorkspaceViewModel WorkspaceViewModel
-		{
-			get { return _workspaceViewModel; }
-			set
-			{
-				if (_workspaceViewModel == value) return;
-				_workspaceViewModel = value;
-				OnPropertyChanged();
-			}
-		}
 
 		#endregion Members
 

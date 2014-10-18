@@ -12,8 +12,6 @@ namespace atc_treeloader_converter.ViewModels
 
 		#region Private
 
-		private WorkspaceViewModel _workspaceViewModel;
-
 		public TechTreeViewModel()
 		{
 			Connections = new ObservableCollection<ConnectionViewModel>();
@@ -29,17 +27,6 @@ namespace atc_treeloader_converter.ViewModels
 
 		public ObservableCollection<ConnectionViewModel>
 			Connections { get; private set; }
-
-		public WorkspaceViewModel WorkspaceViewModel
-		{
-			get { return _workspaceViewModel; }
-			set
-			{
-				if (_workspaceViewModel == value) return;
-				_workspaceViewModel = value;
-				OnPropertyChanged();
-			}
-		}
 
 		#endregion Public
 
