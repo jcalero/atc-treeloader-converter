@@ -53,6 +53,8 @@ namespace atc_treeloader_converter.Views
 
 			_config = ParseTree(dlg.FileName);
 
+			_treeData.TechTree.Clear();
+
 			foreach (var tree in
 				_config.Where(
 				              tree => tree.Name != "REMOVENODE" &&
