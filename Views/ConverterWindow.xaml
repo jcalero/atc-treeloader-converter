@@ -3,7 +3,7 @@
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
 	mc:Ignorable="d" x:Class="atc_treeloader_converter.Views.ConverterWindow"
-	Title="ConverterWindow" Height="218" Width="300" MinWidth="280" MinHeight="190">
+	Title="TreeLoader to ATC Converter" Height="218" Width="300" MinWidth="280" MinHeight="190">
 	<Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="*"/>

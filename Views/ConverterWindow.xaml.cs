@@ -39,7 +39,8 @@ namespace atc_treeloader_converter.Views
 			var dlg = new OpenFileDialog
 			          {
 				          DefaultExt = ".cfg",
-				          Filter = "Tech Tree Config Files|*.cfg"
+				          Filter = "Tech Tree Config Files|*.cfg",
+				          Title = "Select TreeLoader tree to convert",
 			          };
 
 			var result = dlg.ShowDialog();
